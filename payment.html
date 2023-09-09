@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make Order</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="order-page">
+    <h1 class="four">Fill this form for delivery</h1>
+    <div class="form-page">
+        <form action="">
+            <p><label for="name"><h3>First name</h3></label>
+            </p>
+            <input type="text" name="name" id="name" required>
+            <p><label for="name"><h3>Middle name</h3></label>
+            </p>
+            <input type="text" name="name" id="name">
+            <p><label for="name"><h3>Last name</h3></label>
+            </p>
+            <input type="text" name="name" id="name" required>
+            <p><h3>Telephone Number</h3></p>
+            <input type="text" required>
+            <p><h3>Home Address/ Street Address</h3></p>
+            <input type="text" required>
+            <p><label for="email"><h3>Your email address</h3></label>
+            </p>
+            <input class="mail" type="email" name="email" id="email" required>
+            <p><label for="order"><h3>Please list your orders here</h3></label>
+                <textarea name="order" id="order" cols="30" rows="10"></textarea>
+            </p>
+            <p><h4>Payment type</h4></p>
+            <input class="card" type="radio" value="Mastercard" name="pay" id="pay">Mastercard
+            <input class="card" type="radio" value="Visa card" name="pay" id="pay">Visa card
+            <input class="card" type="radio" value="Cheque" name="pay" id="pay">Cheque
+            <input class="card" type="radio" value="Smart card" name="pay" id="pay">Smart card
+            <input class="card" type="radio" value="Cash" name="pay" id="pay">Cash
+            <br>
+            <br>
+            <label for="checkbox"><input type="checkbox" name="checkbox" id="checkbox" required>I agree to the<a href="#">terms and conditions.</a></label>
+            <br>
+            <button type="button">Submit</button>
+                <footer><p>&copy;2023</p></footer>
+        </form>
+    </div>
+</body>
+</html>
